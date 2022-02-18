@@ -1,9 +1,8 @@
 #include<stdio.h>
 int fact(int numero);
 
-int main(int argc , char* argv[])
-{
-int n=0;
+int main(int argc char* argv[])
+{int n=0;
 int factoriado=0;
 
 printf("ingresa el numero a factoriaar:");
@@ -15,28 +14,12 @@ printf("el resultado es:%d",factoriado);
 
 getche();
 
-return 0;
-
-}
-
-
-
-
-
-
+return 0;}
 
 //--------------------
 int fact(int numero)
-{
-int num=0;
+{int num=0;
 int factorial=0;
-	if(num>=1)
-	{
-	factorial=num*(num-1);
-	}
-	else
-	{
-	return 1;
-	}
-return factorial;
-}
+	if (num>=1) {factorial=num*(num-1);}
+	else {return 1;}
+return factorial;}
