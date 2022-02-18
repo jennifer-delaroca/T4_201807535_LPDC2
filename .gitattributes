@@ -20,6 +20,6 @@ return 0;}
 int fact(int numero)
 {int num=0;
 int factorial=0;
-	if (num>=1) {factorial=num*(num-1);}
-	else {return 1;}
+	if (num>=1) {factorial=num*(num-1)}
+	else {return 1}
 return factorial;}
